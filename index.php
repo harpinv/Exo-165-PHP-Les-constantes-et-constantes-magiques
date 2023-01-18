@@ -9,9 +9,16 @@
  *    longueur de la chaîne de la troisième constante ( attention aux priorités )
  */
 // TODO Votre code ici.
+const MON_NOMBRE = 12;
+const MON_NOMBRE2 = 2;
+echo MON_NOMBRE * MON_NOMBRE2 . "<br>";
 
+const MA_CHAINE = "C'est pas cool";
+echo (MON_NOMBRE + MON_NOMBRE2) * strlen(MA_CHAINE) . "<br>";
 
 /**
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
 // TODO Votre code ici.
+echo basename(__DIR__) . "<br>";
+echo basename(__FILE__);
